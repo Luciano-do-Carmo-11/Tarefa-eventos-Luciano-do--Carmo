@@ -6,11 +6,11 @@ if(idade>=18) {
     console.log("idade nao permitida para realizar o cadastro")
 }
 //segundo requisito quantidade de participantes
-let quantidadedeparticipantes = 100
+let quantidadedeparticipantes = 120
 if(quantidadedeparticipantes<=100) {
     console.log("pode fazer o cadastro")
 } else {
-    console.log("não e permitido cadastrar, devido ultrapassar o limite de participantes")
+    console.log("nao e permitido cadastrar, devido ultrapassar o limite de participantes")
 }
 // terceiro requisito data do evento
 let dataevento = new Date("January 21, 2022 12:00:00");
